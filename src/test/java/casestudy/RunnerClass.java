@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(features="src/test/resources/casestudy/",
 
-plugin="html:target\\htmlreport")
+plugin="json:target\\Jsonreport.json")
 
 public class RunnerClass {
 
