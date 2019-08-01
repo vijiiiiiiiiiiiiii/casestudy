@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features="src/test/resources/casestudy/cs1.feature",
+@CucumberOptions(features="src/test/resources/casestudy/",
 
 plugin="html:target\\htmlreport")
 
